@@ -11,7 +11,7 @@ int main(){
     for(i=0;i<n-1;i++){
         min = i;
         // Assume minimum valuie is stored at index i
-        for(j=i+1;j<n-1;j++){
+        for(j=i+1;j<n;j++){
             if(a[j]<a[min]){
                 // If minimum idex is not i then set min to the index storing lowest value in array
                 min = j;
